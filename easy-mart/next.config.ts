@@ -2,7 +2,7 @@
 const nextConfig = {
   output: 'export', // ✅ Required for static export
   images: {
-    unoptimized: true, // ✅ Required because static export doesn't support optimized images
+    unoptimized: true, // ✅ Static export doesn't support optimized images
     domains: [
       "res.cloudinary.com",
       "m.media-amazon.com",
@@ -10,6 +10,8 @@ const nextConfig = {
       "cdn.example.com"
     ],
   },
+  basePath: '/RV-Web-Internship-Task',   // 👈 yaha apne GitHub repo ka naam daalna
+  assetPrefix: '/RV-Web-Internship-Task/', // 👈 same repo name
 };
 
 module.exports = nextConfig;
