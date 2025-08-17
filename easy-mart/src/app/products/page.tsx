@@ -57,7 +57,72 @@ const products: Product[] = [
       { store: "Amazon Fresh", price: 25 },
       { store: "Our Shop", price: 22 },
     ],
-  }
+  },
+   {
+    id: 4,
+    name: "Amul Taaza Toned Milk - 1L",
+    description: "Pasteurized toned milk, rich in calcium and protein",
+    image: "https://res.cloudinary.com/dkjkyvqg2/image/upload/v1755455344/iun4tbhqxwq6zfihj3c5.jpg",
+    prices: [
+      { store: "Blinkit", price: 66, url: "https://blinkit.com" },
+      { store: "BigBasket", price: 68, url: "https://bigbasket.com" },
+      { store: "JioMart", price: 65, url: "https://www.jiomart.com" },
+      { store: "Amazon Fresh", price: 66, url: "https://www.amazon.in" },
+      { store: "Our Shop", price: 64, url: "/our-shop" },
+    ],
+  },
+  {
+    id: 5,
+    name: "Maggie Instant Noodles - 420g (Pack of 6)",
+    description: "Quick and tasty 2-minute noodles",
+    image: "https://res.cloudinary.com/dkjkyvqg2/image/upload/v1755455143/shopping_mrhtwx.webp",
+    prices: [
+      { store: "Blinkit", price: 78 },
+      { store: "BigBasket", price: 80 },
+      { store: "JioMart", price: 75 },
+      { store: "Amazon Fresh", price: 76 },
+      { store: "Our Shop", price: 72 },
+    ],
+  },
+  {
+    id: 6,
+    name: "Nestlé Everyday Dairy Whitener - 400g",
+    description: "Instant milk powder for tea and coffee",
+    image: "https://res.cloudinary.com/dkjkyvqg2/image/upload/v1755455418/nozszpnbm1nox7zagw1l.jpg",
+    prices: [
+      { store: "Blinkit", price: 220 },
+      { store: "BigBasket", price: 225 },
+      { store: "JioMart", price: 215 },
+      { store: "Amazon Fresh", price: 218 },
+      { store: "Our Shop", price: 210 },
+    ],
+  },
+  {
+    id: 7,
+    name: "Parachute Coconut Oil - 500ml",
+    description: "Pure coconut oil for hair and cooking",
+    image: "https://res.cloudinary.com/dkjkyvqg2/image/upload/v1755455487/mhyteynbaifz2ttlttic.jpg",
+    prices: [
+      { store: "Blinkit", price: 110 },
+      { store: "BigBasket", price: 112 },
+      { store: "JioMart", price: 105 },
+      { store: "Amazon Fresh", price: 108 },
+      { store: "Our Shop", price: 100 },
+    ],
+  },
+  {
+  id:8 ,
+  name: "Surf Excel Matic Front Load - 2Kg",
+  description: "Premium laundry detergent for front-load machines",
+  image: "https://res.cloudinary.com/dkjkyvqg2/image/upload/v1755455640/40130610_9-surf-excel-detergent-liquid-matic-front-load_v1ew0t.png",
+  prices: [
+    { store: "Blinkit", price: 540, url: "https://blinkit.com" },
+    { store: "BigBasket", price: 545, url: "https://bigbasket.com" },
+    { store: "JioMart", price: 525, url: "https://www.jiomart.com" },
+    { store: "Amazon Fresh", price: 530, url: "https://www.amazon.in" },
+    { store: "Our Shop", price: 510, url: "/our-shop" },
+  ],
+},
 ];
 
 export default function ProductsPage() {

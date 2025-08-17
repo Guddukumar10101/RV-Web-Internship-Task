@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const team = [
-  { name: "Guddu", role: "Founder & Developer", img: "/images/team/Guddu.jpg" },
-  { name: "Nitish", role: "Backend Developer", img: "/images/team/nk.jpg" },
-  { name: "Joya", role: "API Engineer", img: "/images/team/rk.jpg" },
-  { name: "Pooja", role: "Frontend Intern", img: "/images/team/pooja.jpg" },
-  { name: "Ravi", role: "UI Designer", img: "/images/team/ravi.jpg" },
+  { name: "Guddu Kumar Yadav", role: "Founder & Developer", img: "/images/team/Guddu.jpg" },
+  { name: "Nitish Kumar ", role: "Backend Developer", img: "/images/team/nk.jpg" },
+  { name: "Nitish Pal", role: "API Engineer", img: "/images/team/nitishpal.jpg" },
+  { name: "Hanshraj Kumar Singh ", role: "Tester ", img: "/images/team/hans.png" },
+  { name: "Augustine Dungdung", role: "UI Designer", img: "/images/team/augustine.jpg" },
 ];
 
 export const TeamSection = () => {
