@@ -1,12 +1,13 @@
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // ✅ Required for static export
   images: {
-    domains: ["res.cloudinary.com",
-      "m.media-amazon.com", // Amazon product images
-      "images.unsplash.com", // Agar Unsplash use karo future me
-      "cdn.example.com" // Agar apne CDN ka use ho future me
+    unoptimized: true, // ✅ Required because static export doesn't support optimized images
+    domains: [
+      "res.cloudinary.com",
+      "m.media-amazon.com",
+      "images.unsplash.com",
+      "cdn.example.com"
     ],
   },
 };
