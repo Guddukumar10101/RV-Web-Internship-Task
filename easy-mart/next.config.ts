@@ -10,8 +10,8 @@ const nextConfig = {
       "cdn.example.com"
     ],
   },
-  basePath: '/RV-Web-Internship-Task',   // 👈 yaha apne GitHub repo ka naam daalna
-  assetPrefix: '/RV-Web-Internship-Task/', // 👈 same repo name
+  // basePath: '/RV-Web-Internship-Task',   // 👈 yaha apne GitHub repo ka naam daalna
+  // assetPrefix: '/RV-Web-Internship-Task/', // 👈 same repo name
 };
 
-module.exports = nextConfig;
+module.exports = nextConfig;  
